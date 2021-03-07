@@ -1,0 +1,27 @@
+{
+  "settings": [
+    {
+      "Domain": [ "www.bswtan.com" ],
+      "Charset": "utf-8",
+      "MenuLocationXpath": "",
+      "TitleXpath": "//div[@id=\"info\"]/h1",
+      "MenuXpath": "//div[@id=\"list\"]/dl//a",
+      "NextMenuPageXpath": "",
+      "ContentTitleXpath": "//div[@class=\"bookname\"]/h1",
+      "ContentXpath": "//div[@id=\"content\"]",
+      "NextContentPageXpath": ""
+    },
+    {
+      "Domain": [ "www.diyibanzhu1.in" ],
+      "Charset": "gbk",
+      "MenuLocationXpath": "",
+      "TitleXpath": "//div[@class='right']/h1",
+      "MenuXpath": "(//ul[@class='list'])[2]//a",
+      "NextMenuPageXpath": "//a[@class='nextPage']",
+      "ContentTitleXpath": "//h1[@class='page-title']",
+      "ContentXpath": "//div[@class=\"page-content font-large\"]/p",
+      "NextContentPageXpath": "",
+      "AllContentPageXpath": "//center[@class='chapterPages']/a[not(@class)]"
+    }
+  ]
+}
