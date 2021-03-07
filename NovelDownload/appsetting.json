@@ -22,6 +22,17 @@
       "ContentXpath": "//div[@class=\"page-content font-large\"]/p",
       "NextContentPageXpath": "",
       "AllContentPageXpath": "//center[@class='chapterPages']/a[not(@class)]"
+    },
+    {
+      "Domain": [ "www.cuiweijuxs.org" ],
+      "Charset": "gbk",
+      "MenuLocationXpath": "",
+      "TitleXpath": "//div[@id=\"info\"]/h1",
+      "MenuXpath": "//div[@id=\"list\"]/dl//a",
+      "NextMenuPageXpath": "",
+      "ContentTitleXpath": "//div[@class=\"bookname\"]/h1",
+      "ContentXpath": "//div[@id=\"content\"]",
+      "NextContentPageXpath": ""
     }
   ]
 }

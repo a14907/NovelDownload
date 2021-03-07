@@ -16,7 +16,7 @@ namespace NovelSpider
                 return target;
             }
 
-            if (Uri.TryCreate(new Uri("http://www.diyibanzhu1.in/0/3/11.html"), target, out var newuri))
+            if (Uri.TryCreate(new Uri(baseurl), target, out var newuri))
             {
                 return newuri.ToString();
             }
