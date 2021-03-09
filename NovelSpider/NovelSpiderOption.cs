@@ -3,6 +3,10 @@
     public class NovelSpiderOption
     {
         public string[] Domain { get; set; }
+        /// <summary>
+        /// 毫秒
+        /// </summary>
+        public int RequestDelay { get; set; } = 1000;
         public string Charset { get; set; }
         public string MenuLocationXpath { get; set; }
         public string TitleXpath { get; set; }

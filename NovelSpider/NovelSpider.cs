@@ -171,7 +171,11 @@ namespace NovelSpider
 
             async Task<string> GetPageHtmlAsync(string turl)
             {
-                await Task.Delay(1000);
+                if (_opt.RequestDelay > 0)
+                {
+                    await Task.Delay(_opt.RequestDelay);
+                }
+                
                 var response = await _client.GetAsync(turl);
                 Encoding newcharset = null;
                 if (!string.IsNullOrEmpty(response.Content.Headers.ContentType.CharSet))

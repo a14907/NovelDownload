@@ -2,6 +2,7 @@
   "settings": [
     {
       "Domain": [ "www.bswtan.com" ],
+      "RequestDelay": 1000,
       "Charset": "utf-8",
       "MenuLocationXpath": "",
       "TitleXpath": "//div[@id=\"info\"]/h1",
@@ -13,6 +14,7 @@
     },
     {
       "Domain": [ "www.diyibanzhu1.in" ],
+      "RequestDelay": 1000,
       "Charset": "gbk",
       "MenuLocationXpath": "",
       "TitleXpath": "//div[@class='right']/h1",
@@ -25,6 +27,7 @@
     },
     {
       "Domain": [ "www.cuiweijuxs.org" ],
+      "RequestDelay": 1000,
       "Charset": "gbk",
       "MenuLocationXpath": "",
       "TitleXpath": "//div[@id=\"info\"]/h1",
@@ -36,6 +39,7 @@
     },
     {
       "Domain": [ "www.biqugeq.com" ],
+      "RequestDelay": 1000,
       "Charset": "utf-8",
       "MenuLocationXpath": "",
       "TitleXpath": "//div[@class=\"info\"]/h2",
