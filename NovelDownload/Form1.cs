@@ -59,9 +59,8 @@ namespace NovelDownload
                     return;
                 }
                 var res = await instance.Process(url, "./小说");
-                MessageBox.Show(res.msg + " retryCount:" + res.retryCount);
-
                 Process.Start("explorer.exe", Path.Combine(Directory.GetCurrentDirectory(), "小说"));
+                MessageBox.Show(res.msg + " retryCount:" + res.retryCount);
             }
             finally
             {
