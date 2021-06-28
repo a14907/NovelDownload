@@ -48,6 +48,18 @@
       "ContentTitleXpath": "//div[@class=\"content\"]/h1",
       "ContentXpath": "//div[@id=\"content\"]",
       "NextContentPageXpath": ""
+    },
+    {
+      "Domain": [ "www.wyzxwk.com" ],
+      "RequestDelay": 0,
+      "Charset": "utf-8",
+      "MenuLocationXpath": "",
+      "TitleXpath": "/html/head/title",
+      "MenuXpath": "//h3/a",
+      "NextMenuPageXpath": "",
+      "ContentTitleXpath": "/html/body/div[1]/div[2]/div[1]/h1",
+      "ContentXpath": "/html/body/div[1]/div[2]/div[1]",
+      "NextContentPageXpath": ""
     }
   ]
 }
